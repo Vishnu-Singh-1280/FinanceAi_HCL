@@ -1,0 +1,17 @@
+{
+  "name": "FinanceAI — Financial Research & Stock Intelligence",
+  "short_name": "FinanceAI",
+  "description": "Professional institutional financial analytics, machine learning stock prediction, and portfolio intelligence.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F9FC",
+  "theme_color": "#0F172A",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ]
+}
