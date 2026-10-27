@@ -89,7 +89,31 @@ docker run -d -p 8000:8000 --name financeai_app financeai:latest
 
 ## 4. Cloud Platform Deployments
 
-### Render (Recommended Free / Starter)
+### Hugging Face Spaces (Recommended #1 — 100% Free Forever, 0 Credit Card)
+1. Sign in to **[Hugging Face](https://huggingface.co/)** (free signup with Google or GitHub).
+2. Go to **[https://huggingface.co/new-space](https://huggingface.co/new-space)**.
+3. Configure your Space:
+   - **Space Name**: `FinanceAI` (or any name you like)
+   - **License**: `mit` / `apache-2.0`
+   - **Select the Space SDK**: Choose **Docker** ➔ **Blank**.
+   - **Space Hardware**: Free CPU (2 vCPU · 16 GB RAM).
+4. Under **"Already have a repo?"** or after creating:
+   - Clone the Hugging Face repo or push directly from your local project:
+     ```bash
+     git remote add hf https://huggingface.co/spaces/<YOUR_HF_USERNAME>/FinanceAI
+     git push hf main
+     ```
+   - Or connect your GitHub repository directly.
+5. Hugging Face Spaces reads the `Dockerfile` automatically, builds both React and FastAPI, and launches your platform on a permanent, public HTTPS link (e.g. `https://huggingface.co/spaces/Vishnu-Singh/FinanceAI`) with 16 GB RAM!
+
+### Koyeb (Free — No Credit Card Required)
+1. Sign in to **[Koyeb.com](https://www.koyeb.com)** with GitHub.
+2. Click **Create App** ➔ **GitHub**.
+3. Select your repository: `Vishnu-Singh-1280/FinanceAi_HCL`.
+4. Choose **Dockerfile** builder and Port `7860`.
+5. Click **Deploy**.
+
+### Render
 1. Fork or push this repository to GitHub/GitLab.
 2. Sign in to [Render.com](https://render.com) and click **New + Web Service**.
 3. Connect your repository.

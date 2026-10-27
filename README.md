@@ -1,3 +1,13 @@
+---
+title: FinanceAI
+emoji: 📈
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # FinanceAI — AI-Powered Financial Research, Stock Prediction & Portfolio Intelligence Platform
 
 FinanceAI is an institutional-grade, full-stack financial analytics, quantitative modeling, machine-learning forecasting, and portfolio optimization platform.
